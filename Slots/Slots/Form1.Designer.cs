@@ -33,15 +33,15 @@
             this.label1 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbBetFive = new System.Windows.Forms.RadioButton();
-            this.rbBetTen = new System.Windows.Forms.RadioButton();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.rbBetTwenty = new System.Windows.Forms.RadioButton();
             this.rbBetFifty = new System.Windows.Forms.RadioButton();
+            this.rbBetTen = new System.Windows.Forms.RadioButton();
+            this.rbBetFive = new System.Windows.Forms.RadioButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.lblCredit = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.lblCredit = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -85,38 +85,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bets";
             // 
-            // rbBetFive
-            // 
-            this.rbBetFive.AutoSize = true;
-            this.rbBetFive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbBetFive.Location = new System.Drawing.Point(14, 29);
-            this.rbBetFive.Name = "rbBetFive";
-            this.rbBetFive.Size = new System.Drawing.Size(75, 20);
-            this.rbBetFive.TabIndex = 0;
-            this.rbBetFive.TabStop = true;
-            this.rbBetFive.Text = "Bet Five";
-            this.rbBetFive.UseVisualStyleBackColor = true;
-            // 
-            // rbBetTen
-            // 
-            this.rbBetTen.AutoSize = true;
-            this.rbBetTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbBetTen.Location = new System.Drawing.Point(14, 55);
-            this.rbBetTen.Name = "rbBetTen";
-            this.rbBetTen.Size = new System.Drawing.Size(73, 20);
-            this.rbBetTen.TabIndex = 1;
-            this.rbBetTen.TabStop = true;
-            this.rbBetTen.Text = "Bet Ten";
-            this.rbBetTen.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Location = new System.Drawing.Point(4, -2);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(178, 176);
-            this.groupBox2.TabIndex = 3;
-            this.groupBox2.TabStop = false;
-            // 
             // rbBetTwenty
             // 
             this.rbBetTwenty.AutoSize = true;
@@ -141,6 +109,38 @@
             this.rbBetFifty.Text = "Bet Fifty";
             this.rbBetFifty.UseVisualStyleBackColor = true;
             // 
+            // rbBetTen
+            // 
+            this.rbBetTen.AutoSize = true;
+            this.rbBetTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbBetTen.Location = new System.Drawing.Point(14, 55);
+            this.rbBetTen.Name = "rbBetTen";
+            this.rbBetTen.Size = new System.Drawing.Size(73, 20);
+            this.rbBetTen.TabIndex = 1;
+            this.rbBetTen.TabStop = true;
+            this.rbBetTen.Text = "Bet Ten";
+            this.rbBetTen.UseVisualStyleBackColor = true;
+            // 
+            // rbBetFive
+            // 
+            this.rbBetFive.AutoSize = true;
+            this.rbBetFive.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbBetFive.Location = new System.Drawing.Point(14, 29);
+            this.rbBetFive.Name = "rbBetFive";
+            this.rbBetFive.Size = new System.Drawing.Size(75, 20);
+            this.rbBetFive.TabIndex = 0;
+            this.rbBetFive.TabStop = true;
+            this.rbBetFive.Text = "Bet Five";
+            this.rbBetFive.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Location = new System.Drawing.Point(4, -2);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(178, 176);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.label2);
@@ -152,25 +152,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Credit";
             // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.label1);
-            this.groupBox4.Location = new System.Drawing.Point(4, 180);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(178, 64);
-            this.groupBox4.TabIndex = 6;
-            this.groupBox4.TabStop = false;
-            // 
-            // lblCredit
-            // 
-            this.lblCredit.AutoSize = true;
-            this.lblCredit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCredit.Location = new System.Drawing.Point(27, 22);
-            this.lblCredit.Name = "lblCredit";
-            this.lblCredit.Size = new System.Drawing.Size(24, 25);
-            this.lblCredit.TabIndex = 0;
-            this.lblCredit.Text = "0";
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -180,6 +161,25 @@
             this.label2.Size = new System.Drawing.Size(24, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "$";
+            // 
+            // lblCredit
+            // 
+            this.lblCredit.AutoSize = true;
+            this.lblCredit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCredit.Location = new System.Drawing.Point(27, 22);
+            this.lblCredit.Name = "lblCredit";
+            this.lblCredit.Size = new System.Drawing.Size(48, 25);
+            this.lblCredit.TabIndex = 0;
+            this.lblCredit.Text = "100";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label1);
+            this.groupBox4.Location = new System.Drawing.Point(4, 180);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(178, 64);
+            this.groupBox4.TabIndex = 6;
+            this.groupBox4.TabStop = false;
             // 
             // Form1
             // 
@@ -191,7 +191,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Degenerate Gambler";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

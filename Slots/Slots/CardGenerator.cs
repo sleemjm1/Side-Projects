@@ -86,7 +86,7 @@ namespace Slots
             if (win)
             {
                 label.Text = "Win";
-                Credit *= multiplier;
+                Credit += multiplier;
             }
             else
             {
