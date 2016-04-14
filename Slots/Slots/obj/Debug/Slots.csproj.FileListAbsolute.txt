@@ -1,0 +1,8 @@
+H:\C Sharp\Slots\Slots\bin\Debug\Slots.exe.config
+H:\C Sharp\Slots\Slots\bin\Debug\Slots.exe
+H:\C Sharp\Slots\Slots\bin\Debug\Slots.pdb
+H:\C Sharp\Slots\Slots\obj\Debug\Slots.Form1.resources
+H:\C Sharp\Slots\Slots\obj\Debug\Slots.Properties.Resources.resources
+H:\C Sharp\Slots\Slots\obj\Debug\Slots.csproj.GenerateResource.Cache
+H:\C Sharp\Slots\Slots\obj\Debug\Slots.exe
+H:\C Sharp\Slots\Slots\obj\Debug\Slots.pdb

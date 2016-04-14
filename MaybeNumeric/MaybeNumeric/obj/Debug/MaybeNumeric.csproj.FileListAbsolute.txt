@@ -1,0 +1,1 @@
+H:\C Sharp\MaybeNumeric\MaybeNumeric\bin\Debug\MaybeNumeric.exe.config
